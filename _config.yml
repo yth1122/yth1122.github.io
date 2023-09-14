@@ -16,7 +16,7 @@ website: https://velog.io/@yth1122
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
 # twitter_username: jekyllrb
@@ -54,7 +54,7 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
   NodeJS & NetJS ,GCP(GoogleCloudPlatform) 기반의 3년차 백엔드 개발자 입니다.  
  # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
@@ -72,7 +72,7 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
+        title: 사내 연차 관리 및 출퇴근 관리 시스템
         link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         link_text: Link Text
         additional_links:
@@ -89,15 +89,17 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+      - layout: left
+        title:  연합시스템
+        sub_title: 백엔드 엔지니어
+        caption: 2021-01-27 ~ 현재
+        link: https://www.yeonhapsystem.com/
         quote: >
-          Short description of the company (optional)
+          -ㅛ
+          -ㅇ
         description: | # this will include new lines to allow paragraphs
-          Description of role
+         
+         
   - title: Education
     layout: list
     content:

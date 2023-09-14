@@ -1,0 +1,12 @@
+- layout: left
+  company: 연합시스템
+  link: https://www.yeonhapsystem.com/
+  job_title: 백엔드 개발자
+  dates: 2021.01 ~ 현재
+  quote: >
+    CNC공작기계 모니터링 서비스 및 중계플랫폼
+  description: | # this will include new lines to allow paragraphs
+    * 사내 모니터링 & sms서비스 도입 (Electron / NaverCloud & GCP)
+    * APS (Advance Planning and Scheduling), DT(Digital Twin) 등 정부과제 참여 (NodeJs,VueJs)
+    * 개발파트 프론트엔드(Vue),백엔드(Node,Nest) 담당하여 개발
+    * NBG 모니터링, 관리 서비스 메인으로 개발
