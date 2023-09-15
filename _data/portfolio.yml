@@ -15,4 +15,4 @@
     * Socket.io를 사용하여 채팅 프로그램 구현
     * socialLogin(Google,Naver,Kakao) 구현 및 JWT으로 인증방식 구현
     * 이모티콘,#태그로 검색 등 채팅에 필요한 기능 구현
-    * MongoDb와 NodeJs,Nunjuck를 활용
+    * MongoDb와 NodeJs,NunjuckS를 활용
