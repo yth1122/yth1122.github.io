@@ -5,10 +5,10 @@
    
   description: | # this will include new lines to allow paragraphs
     * 개발서버와 실환경을 분리
-    * edge에서 pub/sub로 메세지를 가져와 WebSocket(Node)으로 웹에 데이터를 실시간으로 전달 및 페이지 구현
-    * Electron,ReactNative(Android TV전용앱)을 통해 사용자 환경에 맞게 적용
-    * CloudBuild를 통해 깃에 태그 커밋시 Appengine에 CI/CD 구현
-    * 기계에서 나오는 데이터 RDB에 들어갈 데이터 Bquery에 들어갈 데이터 분기하여 데이터 저장
+    * WebSocket으로 실시간 장비데이터 전달하여 모니터링 페이지 구현
+    * Electron,ReactNative을 통해 사용자 환경에 맞게 적용
+    * CloudBuild를 통해 CI/CD 구현
+    * 기계 데이터 RDB와 Bquery에 들어갈 데이터 분기하여 데이터 저장
     * Api 문서화를 위한 Swagger 도입
 - layout: top-middle
   name: NBG 생산 관리및 모니터링 시스템
@@ -16,8 +16,8 @@
   quote: > 
    
   description: | # this will include new lines to allow paragraphs
-    * PLC데이터를 실시간으로 웹에 뿌려 실시간 Line별 모니터링 서비스 구현
-    * 라인에서 일어나는 에러 및 사유 실시간으로 볼 수 있는 에러 모니터링 서비스 구현
+    * PLC 상태 및 현황 실시간 모니터링 서비스 구현
+    * 장비 에러를 실시간으로 볼 수 있는 에러 모니터링 서비스 구현
     * 생산데이터, 이슈데이터 관리하는 어드민 페이지 구현
 - layout: top-middle
   name: 사내 연차관리 및 출퇴근 관리 시스템
@@ -26,8 +26,8 @@
    
   description: | # this will include new lines to allow paragraphs
     * CAPS Data를 활용하여 출퇴근 기록 관리 페이지 작성 
-    * 각 연차별 연차 생성 및 무급휴가 등 다양한 케이스(무급휴가,병가)의 처리 하여 설계
-    * Google Calendar API를 이용하여 사내 연차 페이지와 연동하여 페이지에서 작성시 자동반영 
+    * 각 연차별 연차 생성 및 사용 연차 히스토리 관리 로직 구현
+    * Google Calendar API를 사내 연차 페이지와 연동
 
 - layout: top-middle
   name: APS(Advanced Planning Scheduling) 정부과제
@@ -36,5 +36,5 @@
    
   description: | # this will include new lines to allow paragraphs
     * 회사 통상근무와 휴게시간 및 공휴일 데이터를 이용하여 공정 스케줄관리 로직 설계
-    * 공정 목표수량을 설정하여 현재 기계 수량이 일치할시 SMS로 정보전달 하는 로직 개발
+    * 공정 목표수량 달성시 SMS로 정보전달 하는 로직 개발
     * 웹소켓을 통하여 기계에서 데이터 받아 실시간으로 표현
