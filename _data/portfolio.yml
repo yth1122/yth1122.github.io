@@ -4,12 +4,15 @@
   quote: >
     개인 기술 블로그
   description: | # this will include new lines to allow paragraphs
-    *
+    * 회사,개인프로젝트로 사용한 기술 및 에러 등을 정리하여 공유 및 다시 공부하고자 기록한 블로그
 
 - layout: left
   name: 개인 프로젝트
   link: https://github.com/yth1122/chat
   quote: >
-   
+    노드공부를 위한 개인 프로젝트
   description: | # this will include new lines to allow paragraphs
-    * 
+    * Socket.io를 사용하여 채팅 프로그램 구현
+    * socialLogin(Google,Naver,Kakao) 구현 및 JWT으로 인증방식 구현
+    * 이모티콘,#태그로 검색 등 채팅에 필요한 기능 구현
+    * MongoDb와 NodeJs,Nunjuck를 활용
