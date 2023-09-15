@@ -1,7 +1,7 @@
 - layout: left
   name: Backend
   description: | # this will include new lines to allow paragraphs
-    * Java, NodeJS ,NestJS
+    * NodeJS ,NestJS
     * TypeORM
 - layout: left
   name: DevOps
@@ -9,11 +9,10 @@
     * MySQL, MongoDB
     * CloudBuild, CI/CD, GCP Code Deploy
     * GCP Pub/Sub, GCP AppEngine, GCP ComputeEngine, CloudSql, GCP BigQuery, CloudStorage
-    * Nginx, Tomcat
+    * Docker, Docker-Compose
 - layout: left
   name: Frontend
   description: | # this will include new lines to allow paragraphs
-    * Vuejs, ReactNative
+    * Vuejs, ReactNative ,Electron
     * ES6
     * Npm, Webpack
-    * Backbone
