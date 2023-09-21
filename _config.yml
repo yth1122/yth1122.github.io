@@ -12,7 +12,7 @@ email: yxk1212@naver.com
 # email_title: Email (Email title override)
 phone: 010-6651-8393
 # phone_title: Phone (Phone title override)
-website: https://velog.io/@yth1122
+website: https://taeng1122.tistory.com/
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -41,7 +41,7 @@ additional_links:
 #   url: Link url (eg. https://google.com)
 - title: blog
   icon: fas fa-blog
-  url: velog.io/@yth1122
+  url: https://taeng1122.tistory.com/
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
