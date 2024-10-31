@@ -1,17 +1,18 @@
 - layout: top-middle
-  name: 모니터링 시스템(자사 프로그램)
+  name: 모니터링 시스템 및 생산관리 (자사 시스템)
   link:
   quote: >
    
   description: | # this will include new lines to allow paragraphs
-    * 개발서버와 실환경을 분리
+    * GCP클라우드 개발환경과 실환경을 분리
+    * 전체 시스템 (JS & Express => TS & NestJS) 마이그레이션
     * WebSocket으로 실시간 장비데이터 전달하여 모니터링 페이지 구현
     * Electron,ReactNative을 통해 사용자 환경에 맞게 적용
-    * CloudBuild를 통해 CI/CD 구현
-    * 기계 데이터 RDB와 Bquery에 들어갈 데이터 분기하여 데이터 저장
+    * CloudBuild를 통해 AppEngine CI/CD 구현
+    * 기계 데이터 RDB와 GCP BigQuery에 들어갈 데이터 분기하여 데이터 저장
     * Api 문서화를 위한 Swagger 도입
 - layout: top-middle
-  name: NBG 생산 관리및 모니터링 시스템
+  name: NBG 생산관리 및 모니터링 시스템
   link:
   quote: > 
    
