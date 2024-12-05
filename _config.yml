@@ -56,7 +56,7 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  NodeJS & NetJS ,GCP(GoogleCloudPlatform) 기반의 백엔드 개발자 입니다.  
+  NodeJS & NestJS ,GCP(GoogleCloudPlatform) 기반의 백엔드 개발자 입니다.  
   백엔드 개발자 이지만 프론트엔드의 부재로 인해 VueJs와 함께 풀스택 개발자로 대부분 참여하였습니다.
   자사 서비스인 모니터링 서비스의 사용의 편의성 및 문제를 해결하기위해 electron,reactNative(androidTV용 앱)등 다양한 툴을 활용 하였고
   개발 환경과 실환경 분리 및 GCP Appengine CI/CD , swagger 도입 등 개발환경을 구성하였습니다. 

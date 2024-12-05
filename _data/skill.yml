@@ -13,6 +13,6 @@
 - layout: left
   name: Frontend
   description: | # this will include new lines to allow paragraphs
-    * Vuejs, ReactNative ,Electron
+    * Vuejs, ReactNative ,Electron, Tauri
     * ES6
     * Npm, Webpack
